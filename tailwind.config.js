@@ -10,7 +10,8 @@ module.exports = {
         primary: '#1db954',
         active: '#282828',
         link: '#b3b3b3',
-        footer: '#181818'
+        footer: '#181818',
+        activeWhite: '#fff'
       }
     },
   },
