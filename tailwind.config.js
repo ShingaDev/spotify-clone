@@ -11,7 +11,18 @@ module.exports = {
         active: '#282828',
         link: '#b3b3b3',
         footer: '#181818',
-        activeWhite: '#fff'
+        activeWhite: '#fff',
+        gradientPurple: '#450af5',
+        gradientGreen: '#c4efd9'
+      },
+      fontSize: {
+        s: '0.813rem'
+      },
+      transitionDelay: {
+        '0': '0ms',
+        '2000': '2000ms',
+        '1': '1ms',
+        '2': '2ms',
       }
     },
   },
