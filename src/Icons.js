@@ -86,6 +86,80 @@ const DownloadIcon = ({ size }) => {
     </svg>
   );
 };
+const DownDirIcon = ({ size }) => {
+  return (
+    <svg
+      role="img"
+      height={size}
+      width={size}
+      class="Svg-sc-1bi12j5-0 jgfuCe eAXFT6yvz37fvS1lmt6k"
+      viewBox="0 0 16 16"
+      xmlns="http://www.w3.org/2000/svg"
+      fill="currentcolor"
+    >
+      <path d="M14 6l-6 6-6-6h12z" />
+    </svg>
+  );
+};
+const PrevIcon = ({ size }) => {
+  return (
+    <svg
+      role="img"
+      height={size}
+      width={size}
+      class="Svg-sc-1bi12j5-0 jgfuCe IYDlXmBmmUKHveMzIPCF"
+      fill="currentcolor"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+    >
+      <path d="M15.957 2.793a1 1 0 010 1.414L8.164 12l7.793 7.793a1 1 0 11-1.414 1.414L5.336 12l9.207-9.207a1 1 0 011.414 0z" />
+    </svg>
+  );
+};
+const NextIcon = ({ size }) => {
+  return (
+    <svg
+      role="img"
+      height={size}
+      width={size}
+      class="Svg-sc-1bi12j5-0 jgfuCe IYDlXmBmmUKHveMzIPCF"
+      fill="currentcolor"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+    >
+      <path d="M8.043 2.793a1 1 0 000 1.414L15.836 12l-7.793 7.793a1 1 0 101.414 1.414L18.664 12 9.457 2.793a1 1 0 00-1.414 0z" />
+    </svg>
+  );
+};
+const ExternalIcon = ({ size }) => {
+  return (
+    <svg
+      role="img"
+      height={size}
+      width={size}
+      viewBox="0 0 16 16"
+      class="Svg-sc-1bi12j5-0 jgfuCe"
+      fill="currentcolor"
+    >
+      <path d="M1 2.75A.75.75 0 011.75 2H7v1.5H2.5v11h10.219V9h1.5v6.25a.75.75 0 01-.75.75H1.75a.75.75 0 01-.75-.75V2.75z" />
+      <path d="M15 1v4.993a.75.75 0 11-1.5 0V3.56L8.78 8.28a.75.75 0 01-1.06-1.06l4.72-4.72h-2.433a.75.75 0 010-1.5H15z" />
+    </svg>
+  );
+};
+const PlayIcon = ({ size }) => {
+  return (
+    <svg
+      role="img"
+      height={size}
+      width={size}
+      viewBox="0 0 24 24"
+      class="Svg-sc-1bi12j5-0 jgfuCe"
+      fill="currentcolor"
+    >
+      <path d="M7.05 3.606l13.49 7.788a.7.7 0 010 1.212L7.05 20.394A.7.7 0 016 19.788V4.212a.7.7 0 011.05-.606z" />
+    </svg>
+  );
+};
 
 const Icon = ({ name, size = 24 }) => {
   const icons = {
@@ -95,6 +169,11 @@ const Icon = ({ name, size = 24 }) => {
     plus: PlusIcon,
     heart: HeartIcon,
     download: DownloadIcon,
+    prev: PrevIcon,
+    next: NextIcon,
+    downDir: DownDirIcon,
+    external: ExternalIcon,
+    play: PlayIcon
   };
   const Component = icons[name];
   return <Component size={size} />;

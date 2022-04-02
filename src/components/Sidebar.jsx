@@ -6,7 +6,7 @@ import Playlist from "./sidebar/Playlist"
 
 function Sidebar() {
     return (
-        <aside className="w-60 pt-6 flex flex-col bg-black">
+        <aside className="w-60 pt-6 flex flex-shrink-0 flex-col bg-black">
             <a href="" className="mb-7 px-6">
                 <img src={logo} className="h-10"/>
             </a>
