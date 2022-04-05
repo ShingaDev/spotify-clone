@@ -25,7 +25,7 @@ function Sidebar() {
                     <li>
                         <a href="#!" className="py-2 px-6 transition-all delay-2 flex items-center text-sm text-link font-semibold hover:text-white group">
                             <span className="w-6 h-6 flex items-center justify-center mr-4 bg-gradient-to-br from-gradientPurple to-gradientGreen transition-all delay-2 text-white rounded-sm opacity-70 group-hover:opacity-100">
-                                <Icon name={"heart"} size={12} />
+                                <Icon name={"heartFilled"} size={12} />
                             </span>
                             Beğenilen Şarkılar
                         </a>

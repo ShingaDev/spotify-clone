@@ -78,16 +78,16 @@ html, body, #root {
   left: 0px
 }
 
-.right-0 {
-  right: 0px
-}
-
 .bottom-2 {
   bottom: 0.5rem
 }
 
 .right-2 {
   right: 0.5rem
+}
+
+.right-0 {
+  right: 0px
 }
 
 .mx-6 {
@@ -97,6 +97,10 @@ html, body, #root {
 
 .mb-4 {
   margin-bottom: 1rem
+}
+
+.mt-1 {
+  margin-top: 0.25rem
 }
 
 .mb-7 {
@@ -111,6 +115,10 @@ html, body, #root {
   margin-right: 1rem
 }
 
+.mr-6 {
+  margin-right: 1.5rem
+}
+
 .mr-2 {
   margin-right: 0.5rem
 }
@@ -119,20 +127,8 @@ html, body, #root {
   margin-top: 0.5rem
 }
 
-.mt-1 {
-  margin-top: 0.25rem
-}
-
 .mr-1 {
   margin-right: 0.25rem
-}
-
-.mr-5 {
-  margin-right: 1.25rem
-}
-
-.mr-6 {
-  margin-right: 1.5rem
 }
 
 .block {
@@ -155,12 +151,20 @@ html, body, #root {
   height: 6rem
 }
 
-.h-\[3\.75rem\] {
-  height: 3.75rem
+.h-7 {
+  height: 1.75rem
 }
 
-.h-full {
-  height: 100%
+.h-1 {
+  height: 0.25rem
+}
+
+.h-3 {
+  height: 0.75rem
+}
+
+.h-\[3\.75rem\] {
+  height: 3.75rem
 }
 
 .h-10 {
@@ -171,16 +175,24 @@ html, body, #root {
   height: 1.5rem
 }
 
+.h-full {
+  height: 100%
+}
+
 .h-8 {
   height: 2rem
 }
 
-.h-2\/3 {
-  height: 66.666667%
-}
-
 .w-full {
   width: 100%
+}
+
+.w-3 {
+  width: 0.75rem
+}
+
+.w-10 {
+  width: 2.5rem
 }
 
 .w-60 {
@@ -191,6 +203,14 @@ html, body, #root {
   width: 1.5rem
 }
 
+.w-\[30\%\] {
+  width: 30%
+}
+
+.w-\[40\%\] {
+  width: 40%
+}
+
 .w-8 {
   width: 2rem
 }
@@ -199,20 +219,20 @@ html, body, #root {
   width: 12rem
 }
 
-.w-10 {
-  width: 2.5rem
+.w-\[5\.813rem\] {
+  width: 5.813rem
 }
 
-.w-2\/4 {
-  width: 50%
+.min-w-\[11\.25rem\] {
+  min-width: 11.25rem
 }
 
-.w-2\/3 {
-  width: 66.666667%
+.max-w-\[45\.125rem\] {
+  max-width: 45.125rem
 }
 
-.w-auto {
-  width: auto
+.max-w-full {
+  max-width: 100%
 }
 
 .flex-auto {
@@ -251,6 +271,10 @@ html, body, #root {
   align-items: center
 }
 
+.justify-end {
+  justify-content: flex-end
+}
+
 .justify-center {
   justify-content: center
 }
@@ -264,13 +288,22 @@ html, body, #root {
           column-gap: 1.5rem
 }
 
+.gap-y-8 {
+  row-gap: 2rem
+}
+
+.gap-x-2 {
+  -webkit-column-gap: 0.5rem;
+          column-gap: 0.5rem
+}
+
 .gap-x-4 {
   -webkit-column-gap: 1rem;
           column-gap: 1rem
 }
 
-.gap-y-8 {
-  row-gap: 2rem
+.self-center {
+  align-self: center
 }
 
 .overflow-auto {
@@ -289,6 +322,18 @@ html, body, #root {
   white-space: nowrap
 }
 
+.rounded-md {
+  border-radius: 0.375rem
+}
+
+.rounded-full {
+  border-radius: 9999px
+}
+
+.rounded-lg {
+  border-radius: 0.5rem
+}
+
 .rounded {
   border-radius: 0.25rem
 }
@@ -299,18 +344,6 @@ html, body, #root {
 
 .rounded-3xl {
   border-radius: 1.5rem
-}
-
-.rounded-full {
-  border-radius: 9999px
-}
-
-.rounded-md {
-  border-radius: 0.375rem
-}
-
-.rounded-lg {
-  border-radius: 0.5rem
 }
 
 .border-t {
@@ -335,19 +368,9 @@ html, body, #root {
   background-color: rgb(24 24 24 / var(--tw-bg-opacity))
 }
 
-.bg-black {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity))
-}
-
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity))
-}
-
-.bg-active {
-  --tw-bg-opacity: 1;
-  background-color: rgb(40 40 40 / var(--tw-bg-opacity))
 }
 
 .bg-primary {
@@ -355,8 +378,22 @@ html, body, #root {
   background-color: rgb(29 185 84 / var(--tw-bg-opacity))
 }
 
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity))
+}
+
+.bg-active {
+  --tw-bg-opacity: 1;
+  background-color: rgb(40 40 40 / var(--tw-bg-opacity))
+}
+
 .bg-opacity-70 {
   --tw-bg-opacity: 0.7
+}
+
+.bg-opacity-0 {
+  --tw-bg-opacity: 0
 }
 
 .bg-opacity-10 {
@@ -397,6 +434,11 @@ html, body, #root {
   padding-right: 1.75rem
 }
 
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem
+}
+
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem
@@ -417,15 +459,6 @@ html, body, #root {
   padding-right: 1rem
 }
 
-.py-5 {
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem
-}
-
-.pt-5 {
-  padding-top: 1.25rem
-}
-
 .pl-5 {
   padding-left: 1.25rem
 }
@@ -442,14 +475,6 @@ html, body, #root {
   padding-right: 0.5rem
 }
 
-.pt-\[80\%\] {
-  padding-top: 80%
-}
-
-.pt-\[10\%\] {
-  padding-top: 10%
-}
-
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem
@@ -460,18 +485,22 @@ html, body, #root {
   line-height: 1rem
 }
 
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem
+}
+
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem
 }
 
-.text-s {
-  font-size: 0.813rem
+.text-\[0\.688rem\] {
+  font-size: 0.688rem
 }
 
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem
+.text-s {
+  font-size: 0.813rem
 }
 
 .font-semibold {
@@ -514,6 +543,14 @@ html, body, #root {
   color: rgb(255 255 255 / var(--tw-text-opacity))
 }
 
+.text-opacity-70 {
+  --tw-text-opacity: 0.7
+}
+
+.opacity-0 {
+  opacity: 0
+}
+
 .opacity-70 {
   opacity: 0.7
 }
@@ -528,25 +565,11 @@ html, body, #root {
   transition-delay: 2ms
 }
 
-.line-clamp-1 {
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 1
-}
-
 .line-clamp-2 {
   overflow: hidden;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2
-}
-
-.line-clamp-5 {
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 5
 }
 
 /*
@@ -966,6 +989,13 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: none;
 }
 
+.hover\:scale-\[1\.06\]:hover {
+  --tw-scale-x: 1.06;
+  --tw-scale-y: 1.06;
+  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
+}
+
 .hover\:bg-active:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(40 40 40 / var(--tw-bg-opacity))
@@ -974,6 +1004,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity))
+}
+
+.hover\:text-opacity-100:hover {
+  --tw-text-opacity: 1
 }
 
 .hover\:underline:hover {
